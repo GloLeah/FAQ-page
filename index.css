@@ -1,0 +1,39 @@
+/* This style centers the content within the browser window by setting margin to auto, 
+   limits the width of the body to 60% of the viewport, 
+   adds padding of 100px around the content for spacing, 
+   justifies the text for even alignment on both sides, 
+   and sets the font family to Arial with fallback options to Helvetica and sans-serif. */
+body{
+ margin: auto;
+ width: 60%;
+ padding:100px;
+ text-align:justify;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This style applies to the header element:
+   - Sets the background color to azure.
+   - Centers the text horizontally within the header.
+   - Adds 20px padding around the content for spacing inside the header. */
+header{
+    background-color:azure;
+    text-align: center;
+    padding: 20px;
+}
+
+/* This style applies to anchor (<a>) elements:
+   - Removes the default underline from links by setting text-decoration to none.
+   - Changes the text color of links to magenta. */
+a{
+    text-decoration: none;
+    color: magenta;
+}
+
+/* This style applies to the element with the ID "body":
+   - Sets the background color to ghostwhite.
+   - Adds 40px padding inside the element for spacing around its content. */
+#body{
+    background-color: ghostwhite;
+    padding: 40px;
+}
+
